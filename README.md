@@ -6,7 +6,7 @@ This project provides a complete pipeline for detecting and decoding QR codes fr
 
 ## Features
 
-* **High-Accuracy Detection**: Utilizes a custom-trained YOLOv8 model to locate QR codes within images.
+* **High-Accuracy Detection**: Utilizes a custom-trained YOLOv11 model to locate QR codes within images.
 * **Robust Decoding**: Employs a multi-stage pipeline using `pyzbar` and OpenCV with advanced image processing techniques (thresholding, morphological operations, upscaling) to decode even damaged or low-quality QR codes.
 * **Batch Processing**: Capable of processing an entire folder of images in a single run.
 * **Structured JSON Output**: Generates two distinct JSON files: one with bounding boxes only and another with both bounding boxes and their decoded values.
@@ -106,3 +106,4 @@ The script will process all images in the folder and generate two output files i
   }
 ]
 ```
+
