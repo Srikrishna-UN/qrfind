@@ -1,0 +1,13 @@
+[project]
+name = "qrfind"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "easyocr>=1.7.2",
+    "opencv-python>=4.11.0.86",
+    "pyzbar>=0.1.9",
+    "qrdet>=2.5",
+    "ultralytics>=8.3.203",
+]
